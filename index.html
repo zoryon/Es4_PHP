@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- setings -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title -->
+    <title>Es4_PHP</title>
+</head>
+
+<body>
+    <form action="./php/action-form.php" method="GET">
+        <!-- user's id info -->
+        <div>
+            <div>
+                <label for="fistName">Nome</label><br>
+                <input id="fistName" type="text" name="firstName">
+            </div>
+
+            <div>
+                <label for="lastName">Cognome</label><br>
+                <input id="lastName" type="text" name="lastName">
+            </div>
+        </div>
+
+        <!-- user's subject -->
+        <div>
+            <input id="it" type="radio" name="subject" value="Informatica">
+            <label for="it">Informatica</label><br>
+        </div>
+
+        <div>
+            <input id="networking" type="radio" name="subject" value="Sistemi e Reti">
+            <label for="networking">Sistemi e Reti</label><br>
+        </div>
+
+        <button type="submit">Invia</button>
+    </form>
+    
+</body>
+
+</html>
